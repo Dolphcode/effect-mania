@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "effect-mania",
+  "version": "${version}",
+  "name": "Effect Mania",
+  "description": "The Effect Mania mod used by Crusader Dolphinus (A.K.A. Dolphcode) in the video \"Minecraft but it's Effect Mania\"",
+  "authors": [
+    "Dolphcode"
+  ],
+  "contact": {
+    "website": "https://github.com/Dolphcode",
+    "repo": "https://github.com/Dolphcode/effect-mania"
+  },
+  "license": "MIT",
+  "icon": "assets/effect-mania/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.dolphcode.effectmania.client.EffectManiaClient"
+    ],
+    "main": [
+      "xyz.dolphcode.effectmania.EffectMania"
+    ]
+  },
+  "mixins": [
+    "effect-mania.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
