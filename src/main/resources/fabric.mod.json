@@ -12,7 +12,7 @@
     "repo": "https://github.com/Dolphcode/effect-mania"
   },
   "license": "MIT",
-  "icon": "assets/effect-mania/icon.png",
+  "icon": "assets/effect_mania/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
