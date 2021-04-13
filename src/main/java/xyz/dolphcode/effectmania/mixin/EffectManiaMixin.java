@@ -22,9 +22,9 @@ public class EffectManiaMixin {
                 int randomDuration = (((int) Math.round(Math.random() * 30.0)) + 10) * 20;
                 ((PlayerEntity) (Object) this).addStatusEffect(new StatusEffectInstance(Registry.STATUS_EFFECT.get(randomEffect), randomDuration));
             } else {
-                int randomEntity = (int) Math.round(Math.random() * ((double) EffectMania.LIVING_ENTITIES.size()));
-                Entity e = new Entity(Registry.ENTITY_TYPE.get(EffectMania.LIVING_ENTITIES.get(randomEntity)), ((PlayerEntity) (Object) this).world);
-                ((PlayerEntity) (Object) this).world.spawnEntity(e);
+                //int randomEntity = (int) Math.round(Math.random() * ((double) EffectMania.LIVING_ENTITIES.size()));
+                //Entity e = new Entity(Registry.ENTITY_TYPE.get(EffectMania.LIVING_ENTITIES.get(randomEntity)), ((PlayerEntity) (Object) this).world);
+                //((PlayerEntity) (Object) this).world.spawnEntity(e);
             }
 
         }
